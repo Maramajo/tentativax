@@ -27,7 +27,7 @@ public class Consome {
 	public Alien[] getList() {
 
 	  try {
-
+//***
 		URL url = new URL("http://localhost:8080/demorest/webapi/aliens");
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 		conn.setRequestMethod("GET");
